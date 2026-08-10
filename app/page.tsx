@@ -16,7 +16,8 @@ import { CTABand } from "@/components/CTABand";
 import { LegalServiceSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
-  title: "Criminal Defense Attorney San Diego CA",
+  // Root-segment page: the layout's title.template doesn't apply here, so include the brand.
+  title: "Criminal Defense Attorney San Diego CA | Tegnelia & DeBose, APC",
   description:
     "Aggressive San Diego criminal defense attorneys handling DUI, domestic violence, drug, theft & felony charges. Free consultation, 24/7 response. Call (619) 876-0992.",
   alternates: { canonical: "/" },

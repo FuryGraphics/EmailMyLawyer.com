@@ -1,4 +1,5 @@
 import { site } from "@/lib/site";
+import { reviews } from "@/lib/reviews";
 
 const address = {
   "@type": "PostalAddress",
@@ -22,7 +23,23 @@ const aggregateRating = {
   "@type": "AggregateRating",
   ratingValue: site.rating,
   reviewCount: site.reviewCount,
+  bestRating: 5,
+  worstRating: 1,
 };
+
+// Individual Review nodes mirroring the reviews shown on the site.
+const reviewNodes = reviews.map((r) => ({
+  "@type": "Review",
+  author: { "@type": "Person", name: r.name },
+  datePublished: r.iso,
+  reviewRating: {
+    "@type": "Rating",
+    ratingValue: r.rating,
+    bestRating: 5,
+    worstRating: 1,
+  },
+  reviewBody: r.body,
+}));
 
 function JsonLd({ data }: { data: object }) {
   return (
@@ -52,6 +69,7 @@ export function LegalServiceSchema() {
         areaServed: "San Diego County, CA",
         openingHoursSpecification: openingHours,
         aggregateRating,
+        review: reviewNodes,
         sameAs: [site.facebook, site.maps],
       }}
     />
@@ -106,6 +124,7 @@ export function LocalBusinessSchema({ path = "/contact" }: { path?: string }) {
         },
         openingHoursSpecification: openingHours,
         aggregateRating,
+        review: reviewNodes,
         sameAs: [site.facebook, site.maps],
       }}
     />

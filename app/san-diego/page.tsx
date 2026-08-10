@@ -13,7 +13,7 @@ import { practiceAreas } from "@/lib/practice-areas";
 import { sanDiegoNeighborhoods } from "@/lib/cities";
 
 export const metadata: Metadata = {
-  title: "Criminal Defense Lawyer San Diego, CA | Tegnelia & DeBose, APC",
+  title: "Criminal Defense Lawyer San Diego, CA",
   description:
     "Local San Diego criminal defense attorney at your Mission Valley office. DUI, domestic violence, drug & felony defense near the San Diego Central Courthouse. Free consult.",
   alternates: { canonical: "/san-diego" },
