@@ -1,0 +1,214 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand palette */
+  --color-ink: #0a0a0a;
+  --color-navy: #24255c;
+  --color-navy-700: #1c1d49;
+  --color-navy-900: #131333;
+  --color-gold: #fcc066;
+  --color-gold-600: #e8a84a;
+  --color-cream: #f5f5f0;
+  --color-cream-dim: #c9c9c2;
+  --color-line: rgba(245, 245, 240, 0.12);
+
+  /* Fonts (bound to next/font CSS variables in layout) */
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Container */
+  --breakpoint-2xl: 90rem;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ink);
+  color: var(--color-cream);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Reusable utility classes */
+@layer components {
+  .container-x {
+    width: 100%;
+    max-width: 80rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-x {
+      padding-inline: 2rem;
+    }
+  }
+
+  /* Gold accent underline beneath headings */
+  .gold-underline::after {
+    content: "";
+    display: block;
+    width: 4.5rem;
+    height: 3px;
+    margin-top: 1rem;
+    background: linear-gradient(90deg, var(--color-gold), var(--color-gold-600));
+    border-radius: 999px;
+  }
+
+  .gold-underline-center::after {
+    margin-inline: auto;
+  }
+
+  /* Primary gold pill button */
+  .btn-gold {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: var(--color-gold);
+    color: var(--color-navy-900);
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    padding: 0.9rem 1.6rem;
+    border-radius: 999px;
+    transition: transform 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+    box-shadow: 0 10px 30px -12px rgba(252, 192, 102, 0.55);
+  }
+  .btn-gold:hover {
+    background: var(--color-gold-600);
+    transform: translateY(-2px);
+  }
+
+  /* Outline button on dark */
+  .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border: 1.5px solid rgba(245, 245, 240, 0.35);
+    color: var(--color-cream);
+    font-weight: 600;
+    padding: 0.9rem 1.6rem;
+    border-radius: 999px;
+    transition: border-color 0.18s ease, background 0.18s ease, transform 0.18s ease;
+  }
+  .btn-outline:hover {
+    border-color: var(--color-gold);
+    color: var(--color-gold);
+    transform: translateY(-2px);
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--color-gold);
+  }
+
+  .card-dark {
+    background: linear-gradient(180deg, rgba(36, 37, 92, 0.55), rgba(19, 19, 51, 0.35));
+    border: 1px solid var(--color-line);
+    border-radius: 1rem;
+    transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .card-dark:hover {
+    border-color: rgba(252, 192, 102, 0.45);
+    transform: translateY(-4px);
+    box-shadow: 0 24px 60px -30px rgba(0, 0, 0, 0.8);
+  }
+}
+
+/* CSS-based entrance animation for above-the-fold (hero) content.
+   Plays from first paint with no JS dependency, so the hero is never
+   stuck invisible on slow hydration. */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.reveal-css {
+  animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal-css {
+    animation: none;
+  }
+}
+
+/* Focus visibility for accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+/* Legal / prose pages */
+.legal-prose h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-cream);
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+.legal-prose h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-cream);
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.legal-prose p,
+.legal-prose li {
+  color: var(--color-cream-dim);
+  line-height: 1.75;
+}
+.legal-prose p {
+  margin-bottom: 1rem;
+}
+.legal-prose ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+.legal-prose li {
+  margin-bottom: 0.4rem;
+}
+.legal-prose a {
+  color: var(--color-gold);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.legal-prose strong {
+  color: var(--color-cream);
+}
+
+/* Chips */
+.chip {
+  display: inline-block;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-line);
+  background: rgba(245, 245, 240, 0.04);
+  font-size: 0.82rem;
+  color: var(--color-cream-dim);
+}
