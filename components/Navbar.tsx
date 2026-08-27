@@ -71,7 +71,7 @@ export function Navbar() {
 
       {/* Main row */}
       <div className="container-x flex items-center justify-between py-3.5">
-        <Logo />
+        <Logo wordmarkOnly />
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
           {mainNav.map((item) =>
