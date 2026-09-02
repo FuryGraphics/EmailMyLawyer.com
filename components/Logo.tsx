@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { site } from "@/lib/site";
 
 // Brand lockup: the firm's gold lion mark (transparent PNG extracted from the
 // supplied logo) + a cream/gold wordmark that stays legible on the dark nav.
@@ -28,9 +29,16 @@ export function Logo({
       />
       <span className="leading-tight">
         {wordmarkOnly ? (
-          <span className="block font-serif text-lg font-semibold tracking-tight text-cream">
-            EmailMyLawyer<span className="text-gold">.com</span>
-          </span>
+          <>
+            <span className="block font-serif text-lg font-semibold tracking-tight text-cream">
+              EmailMyLawyer<span className="text-gold">.com</span>
+            </span>
+            {!compact && (
+              <span className="block text-[0.62rem] uppercase tracking-[0.16em] text-cream-dim">
+                {site.attorneyBar}
+              </span>
+            )}
+          </>
         ) : (
           <>
             <span className="block font-serif text-lg font-semibold tracking-tight text-cream">

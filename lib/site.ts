@@ -1,7 +1,9 @@
 export const site = {
   legalName: "Tegnelia & DeBose, APC",
   brand: "EmailMyLawyer.com",
-  attorney: "Marcus DeBose",
+  attorney: "Marcus DeBose", // casual, used in body copy
+  attorneyLegal: "Marcus E. DeBose", // formal legal name (schema)
+  attorneyBar: "Marcus E. DeBose, Esq.", // responsible-attorney line for header/footer (compliance)
   phone: "(619) 876-0992",
   phoneHref: "tel:+16198760992",
   email: "marcus@emailmylawyer.com",

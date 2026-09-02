@@ -83,7 +83,8 @@ export function AttorneySchema() {
       data={{
         "@context": "https://schema.org",
         "@type": "Attorney",
-        name: `${site.attorney}`,
+        name: site.attorneyLegal,
+        alternateName: site.attorney,
         worksFor: { "@type": "LegalService", name: site.brand, legalName: site.legalName },
         url: `${site.domain}/attorney`,
         telephone: site.phone,
