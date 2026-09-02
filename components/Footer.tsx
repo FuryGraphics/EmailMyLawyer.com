@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MapPin, Phone, Mail, Facebook, ShieldCheck, Clock, MessageSquare, Globe } from "lucide-react";
+import { MapPin, Phone, Mail, Facebook, ShieldCheck, Clock, MessageSquare, Award } from "lucide-react";
 import { Logo } from "./Logo";
 import { site } from "@/lib/site";
 import { practiceAreas } from "@/lib/practice-areas";
@@ -12,10 +12,10 @@ export function Footer() {
       <div className="border-b border-line">
         <div className="container-x grid grid-cols-2 gap-6 py-8 md:grid-cols-4">
           {[
+            { icon: Award, label: "25 Years' Experience" },
             { icon: ShieldCheck, label: "Free Consultation" },
             { icon: Clock, label: "24/7 Case Review" },
             { icon: MessageSquare, label: "Se Habla Español" },
-            { icon: Globe, label: "Former Prosecutor Insight" },
           ].map(({ icon: Icon, label }) => (
             <div key={label} className="flex items-center gap-3">
               <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-gold/12 text-gold ring-1 ring-gold/25">

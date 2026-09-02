@@ -66,8 +66,8 @@ export default function AttorneyPage() {
                 />
               </div>
               <div className="absolute -bottom-6 -right-4 rounded-2xl border border-gold/30 bg-navy-900 p-5 shadow-2xl md:-right-6">
-                <p className="font-serif text-3xl font-bold text-gold">500+</p>
-                <p className="mt-1 text-sm text-cream-dim">Cases Defended</p>
+                <p className="font-serif text-3xl font-bold text-gold">25</p>
+                <p className="mt-1 text-sm text-cream-dim">Years Practicing</p>
               </div>
             </div>
           </Reveal>
@@ -79,11 +79,11 @@ export default function AttorneyPage() {
             </h2>
             <div className="mt-6 space-y-4 text-cream-dim leading-relaxed">
               <p>
-                Marcus DeBose founded his San Diego criminal defense practice on a conviction
-                that never wavers: the accused deserve a fierce, fully prepared advocate standing
-                between them and the power of the state. He built EmailMyLawyer.com to be that
-                advocate for people across San Diego County facing the most frightening moment of
-                their lives.
+                For 25 years, Marcus E. DeBose has built his San Diego criminal defense practice
+                on a conviction that never wavers: the accused deserve a fierce, fully prepared
+                advocate standing between them and the power of the state. He built
+                EmailMyLawyer.com to be that advocate for people across San Diego County facing
+                the most frightening moment of their lives.
               </p>
               <p>
                 Marcus's practice is devoted entirely to criminal defense — from DUI and domestic

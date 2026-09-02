@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, ArrowRight } from "lucide-react";
+import { Phone, ArrowRight, Award } from "lucide-react";
 import { site } from "@/lib/site";
 import { generalFaqs } from "@/lib/faqs";
 import { TrustStrip } from "@/components/TrustStrip";
@@ -66,6 +66,9 @@ export default function HomePage() {
 
         <div className="container-x">
           <div className="max-w-3xl">
+            <div className="reveal-css mb-5 flex w-fit items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-4 py-1.5 text-sm font-semibold text-gold">
+              <Award width={16} height={16} /> 25 Years Serving San Diego
+            </div>
             <p className="reveal-css eyebrow mb-5">EmailMyLawyer.com · San Diego Criminal Defense</p>
             <h1
               className="reveal-css text-4xl font-semibold leading-[1.06] text-cream gold-underline md:text-6xl lg:text-[4.25rem]"
@@ -100,14 +103,14 @@ export default function HomePage() {
 
       <StatSplit
         eyebrow="Our Story"
-        title="Experience That Levels the Playing Field"
+        title="25 Years of Experience on Your Side"
         paragraphs={[
-          "EmailMyLawyer.com was built on a simple belief: everyone deserves a fierce, prepared advocate standing between them and the power of the state. Led by attorney Marcus DeBose, our firm brings courtroom experience and an insider's understanding of how San Diego prosecutors build — and lose — their cases.",
+          "For 25 years, EmailMyLawyer.com and attorney Marcus E. DeBose have stood between San Diego's accused and the power of the state. That experience means an insider's understanding of how local prosecutors build — and lose — their cases, and the judgment that only comes from decades in the courtroom.",
           "We treat every client with respect and every case as if it's headed to trial. That preparation is what gives us leverage to win dismissals, reductions, and acquittals for the people who trust us with their future.",
         ]}
         stats={[
+          { value: "25", label: "Years Serving San Diego" },
           { value: "500+", label: "Cases Defended" },
-          { value: "20+", label: "Years Combined Experience" },
           { value: "24/7", label: "Client Availability" },
         ]}
         linkHref="/attorney"

@@ -33,11 +33,13 @@ export const site = {
     { day: "Saturday", time: "By Appointment" },
     { day: "Sunday", time: "24/7 Case Review Line" },
   ],
+  yearsInPractice: 25,
+  tagline: "Serving San Diego clients for 25 years",
   trustBadges: [
+    "25 Years' Experience",
     "Free Consultation",
     "Se Habla Español",
     "24/7 Case Review",
-    "Former Prosecutor Insight",
   ],
 } as const;
 
