@@ -26,27 +26,27 @@ const GA_ID = "G-XXXXXXXXXX";
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
   title: {
-    default: "Criminal Defense Attorney San Diego CA | Tegnelia & DeBose, APC",
-    template: "%s | Tegnelia & DeBose, APC",
+    default: "Criminal Defense Attorney San Diego CA | EmailMyLawyer.com",
+    template: "%s | EmailMyLawyer.com",
   },
   description:
     "Aggressive San Diego criminal defense attorneys. DUI, domestic violence, drug, theft, and felony defense. Free consultation, 24/7. Call (619) 876-0992.",
-  applicationName: site.legalName,
-  authors: [{ name: site.legalName }],
+  applicationName: site.brand,
+  authors: [{ name: site.brand }],
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
-    siteName: site.legalName,
-    title: "Criminal Defense Attorney San Diego CA | Tegnelia & DeBose, APC",
+    siteName: site.brand,
+    title: "Criminal Defense Attorney San Diego CA | EmailMyLawyer.com",
     description:
       "Aggressive San Diego criminal defense. DUI, domestic violence, drugs, theft, felonies. Free consultation, 24/7.",
     url: site.domain,
     locale: "en_US",
-    images: [{ url: "/images/og-default.jpg", width: 1200, height: 630, alt: site.legalName }],
+    images: [{ url: "/images/og-default.jpg", width: 1200, height: 630, alt: site.brand }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Criminal Defense Attorney San Diego CA | Tegnelia & DeBose, APC",
+    title: "Criminal Defense Attorney San Diego CA | EmailMyLawyer.com",
     description: "Aggressive San Diego criminal defense. Free consultation, 24/7.",
     images: ["/images/og-default.jpg"],
   },

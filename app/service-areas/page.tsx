@@ -12,7 +12,7 @@ import { cities } from "@/lib/cities";
 export const metadata: Metadata = {
   title: "Criminal Defense Attorney Serving San Diego County & Riverside County",
   description:
-    "Tegnelia & DeBose, APC defends clients across San Diego and Riverside counties — Chula Vista, El Cajon, Oceanside, Escondido, Temecula, Murrieta & more. Free consult.",
+    "EmailMyLawyer.com defends clients across San Diego and Riverside counties — Chula Vista, El Cajon, Oceanside, Escondido, Temecula, Murrieta & more. Free consult.",
   alternates: { canonical: "/service-areas" },
 };
 
@@ -29,7 +29,7 @@ export default function ServiceAreasHub() {
       <PageHero
         eyebrow="Service Areas"
         title="Defending Clients Across Southern California"
-        subhead="From our Mission Valley office, Tegnelia & DeBose, APC represents clients throughout San Diego County and into Riverside County. Wherever your case is heard, we're ready to be there."
+        subhead="From our Mission Valley office, EmailMyLawyer.com represents clients throughout San Diego County and into Riverside County. Wherever your case is heard, we're ready to be there."
         size="sm"
       >
         <HeroCTAs />

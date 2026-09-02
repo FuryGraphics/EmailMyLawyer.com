@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Privacy Policy for Tegnelia & DeBose, APC (EmailMyLawyer.com). How we collect, use, and protect the information you share with our San Diego law firm.",
+    "Privacy Policy for EmailMyLawyer.com (Tegnelia & DeBose, APC). How we collect, use, and protect the information you share with our San Diego law firm.",
   alternates: { canonical: "/privacy-policy" },
   robots: { index: true, follow: true },
 };

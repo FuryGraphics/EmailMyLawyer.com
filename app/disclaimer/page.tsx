@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Disclaimer",
   description:
-    "Legal disclaimer and attorney advertising notice for Tegnelia & DeBose, APC (EmailMyLawyer.com), a San Diego criminal defense law firm.",
+    "Legal disclaimer and attorney advertising notice for EmailMyLawyer.com (Tegnelia & DeBose, APC), a San Diego criminal defense law firm.",
   alternates: { canonical: "/disclaimer" },
   robots: { index: true, follow: true },
 };

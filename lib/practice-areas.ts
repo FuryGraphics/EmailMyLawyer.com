@@ -26,12 +26,12 @@ export const practiceAreas: PracticeArea[] = [
     icon: "Car",
     seoTitle: "DUI Lawyer San Diego | DUI Defense Attorney",
     metaDescription:
-      "Charged with DUI in San Diego? Tegnelia & DeBose, APC fights DMV hearings, breath & blood tests, and license suspensions. Free consultation — (619) 876-0992.",
+      "Charged with DUI in San Diego? EmailMyLawyer.com fights DMV hearings, breath & blood tests, and license suspensions. Free consultation — (619) 876-0992.",
     h1: "DUI Defense Attorney in San Diego, CA",
     heroSubhead:
       "A DUI arrest is not a conviction. We challenge the stop, the tests, and the evidence to protect your license and your record.",
     intro:
-      "A San Diego DUI charge moves fast — you have only 10 days to request a DMV hearing before your license is automatically suspended. At Tegnelia & DeBose, APC, we act immediately to protect your driving privileges while we dismantle the criminal case against you. California DUI cases hinge on details prosecutors hope you'll overlook: whether the traffic stop was lawful, whether field sobriety tests were administered correctly, and whether the breath or blood sample was collected and stored properly. We scrutinize the calibration logs, the officer's training records, and the chain of custody. Whether this is your first offense or you're facing a felony DUI with priors, we build a defense aimed at reduction, dismissal, or acquittal — not a quick guilty plea.",
+      "A San Diego DUI charge moves fast — you have only 10 days to request a DMV hearing before your license is automatically suspended. At EmailMyLawyer.com, we act immediately to protect your driving privileges while we dismantle the criminal case against you. California DUI cases hinge on details prosecutors hope you'll overlook: whether the traffic stop was lawful, whether field sobriety tests were administered correctly, and whether the breath or blood sample was collected and stored properly. We scrutinize the calibration logs, the officer's training records, and the chain of custody. Whether this is your first offense or you're facing a felony DUI with priors, we build a defense aimed at reduction, dismissal, or acquittal — not a quick guilty plea.",
     handles: [
       "First, second, and third DUI offenses",
       "Felony DUI and DUI causing injury",
@@ -107,12 +107,12 @@ export const practiceAreas: PracticeArea[] = [
     icon: "ShieldAlert",
     seoTitle: "Domestic Violence Attorney San Diego | DV Defense Lawyer",
     metaDescription:
-      "Accused of domestic violence in San Diego? Tegnelia & DeBose, APC defends DV charges, restraining orders, and false accusations. Free, confidential consultation.",
+      "Accused of domestic violence in San Diego? EmailMyLawyer.com defends DV charges, restraining orders, and false accusations. Free, confidential consultation.",
     h1: "Domestic Violence Defense Attorney in San Diego",
     heroSubhead:
       "An accusation can upend your family, your freedom, and your future. We defend the wrongly accused and protect your rights at every stage.",
     intro:
-      "Domestic violence allegations in San Diego are treated with extraordinary aggression by prosecutors — often before anyone has heard your side. A single 911 call can lead to a mandatory arrest, a protective order that removes you from your own home, and charges that threaten your job, your custody rights, and your Second Amendment rights. At Tegnelia & DeBose, APC, we understand how often these cases arise from misunderstandings, self-defense, or a partner's exaggeration during an emotional moment. We move quickly to address restraining orders, investigate the accuser's motives and inconsistencies, and preserve evidence — text messages, photos, and witness accounts — that tells the real story. Our goal is to protect your reputation and pursue dismissal, reduction, or acquittal.",
+      "Domestic violence allegations in San Diego are treated with extraordinary aggression by prosecutors — often before anyone has heard your side. A single 911 call can lead to a mandatory arrest, a protective order that removes you from your own home, and charges that threaten your job, your custody rights, and your Second Amendment rights. At EmailMyLawyer.com, we understand how often these cases arise from misunderstandings, self-defense, or a partner's exaggeration during an emotional moment. We move quickly to address restraining orders, investigate the accuser's motives and inconsistencies, and preserve evidence — text messages, photos, and witness accounts — that tells the real story. Our goal is to protect your reputation and pursue dismissal, reduction, or acquittal.",
     handles: [
       "Corporal injury to a spouse or cohabitant (PC 273.5)",
       "Domestic battery (PC 243(e)(1))",
@@ -189,12 +189,12 @@ export const practiceAreas: PracticeArea[] = [
     icon: "Pill",
     seoTitle: "Drug Crimes Lawyer San Diego | Drug Defense Attorney",
     metaDescription:
-      "Facing drug charges in San Diego? Tegnelia & DeBose, APC defends possession, sales, and trafficking cases and fights for diversion. Free consultation today.",
+      "Facing drug charges in San Diego? EmailMyLawyer.com defends possession, sales, and trafficking cases and fights for diversion. Free consultation today.",
     h1: "Drug Crimes Defense Attorney in San Diego",
     heroSubhead:
       "From simple possession to alleged trafficking, we challenge illegal searches and fight to keep you out of jail and in treatment where appropriate.",
     intro:
-      "California's drug laws have evolved, but a drug charge in San Diego can still threaten your freedom, your job, and your future. Many of these cases begin with a questionable search — a traffic stop stretched too long, a warrantless entry, or an anonymous tip that never should have led to an arrest. At Tegnelia & DeBose, APC, the first thing we examine is whether your Fourth Amendment rights were violated, because evidence found in an illegal search can be suppressed and the case can collapse. Where treatment is the smarter path, we pursue diversion programs and drug court that resolve the case without a conviction. Where the state overreaches on sales or trafficking allegations, we hold prosecutors to their burden and fight for dismissal or acquittal.",
+      "California's drug laws have evolved, but a drug charge in San Diego can still threaten your freedom, your job, and your future. Many of these cases begin with a questionable search — a traffic stop stretched too long, a warrantless entry, or an anonymous tip that never should have led to an arrest. At EmailMyLawyer.com, the first thing we examine is whether your Fourth Amendment rights were violated, because evidence found in an illegal search can be suppressed and the case can collapse. Where treatment is the smarter path, we pursue diversion programs and drug court that resolve the case without a conviction. Where the state overreaches on sales or trafficking allegations, we hold prosecutors to their burden and fight for dismissal or acquittal.",
     handles: [
       "Simple possession of a controlled substance (HS 11350)",
       "Possession for sale (HS 11351)",
@@ -271,12 +271,12 @@ export const practiceAreas: PracticeArea[] = [
     icon: "ShoppingBag",
     seoTitle: "Theft Crimes Attorney San Diego | Theft Defense Lawyer",
     metaDescription:
-      "Charged with theft in San Diego? Tegnelia & DeBose, APC defends shoplifting, petty theft, grand theft, burglary, and fraud. Protect your record — call today.",
+      "Charged with theft in San Diego? EmailMyLawyer.com defends shoplifting, petty theft, grand theft, burglary, and fraud. Protect your record — call today.",
     h1: "Theft Crimes Defense Attorney in San Diego",
     heroSubhead:
       "A theft conviction brands you as dishonest. We protect your record, your reputation, and your ability to earn a living.",
     intro:
-      "A theft charge — even a first-time shoplifting allegation — can leave a permanent stain that follows you onto every job and rental application. San Diego prosecutors pursue theft cases aggressively, and a conviction for a 'crime of moral turpitude' can be especially damaging to your career, professional licenses, and immigration status. At Tegnelia & DeBose, APC, we know these cases often rest on shaky ground: mistaken identity, blurry surveillance footage, a genuine misunderstanding at the register, or a false accusation. We investigate whether the state can actually prove intent — the cornerstone of every theft charge — and we work toward diversion, civil compromise, reduction, or dismissal so a single mistake or misunderstanding doesn't define your future.",
+      "A theft charge — even a first-time shoplifting allegation — can leave a permanent stain that follows you onto every job and rental application. San Diego prosecutors pursue theft cases aggressively, and a conviction for a 'crime of moral turpitude' can be especially damaging to your career, professional licenses, and immigration status. At EmailMyLawyer.com, we know these cases often rest on shaky ground: mistaken identity, blurry surveillance footage, a genuine misunderstanding at the register, or a false accusation. We investigate whether the state can actually prove intent — the cornerstone of every theft charge — and we work toward diversion, civil compromise, reduction, or dismissal so a single mistake or misunderstanding doesn't define your future.",
     handles: [
       "Petty theft and shoplifting (PC 484 / 490.5)",
       "Grand theft (PC 487)",
@@ -353,12 +353,12 @@ export const practiceAreas: PracticeArea[] = [
     icon: "Swords",
     seoTitle: "Assault & Battery Lawyer San Diego | Violent Crime Defense",
     metaDescription:
-      "Charged with assault or battery in San Diego? Tegnelia & DeBose, APC defends bar fights, self-defense cases, and aggravated assault. Free consultation — call now.",
+      "Charged with assault or battery in San Diego? EmailMyLawyer.com defends bar fights, self-defense cases, and aggravated assault. Free consultation — call now.",
     h1: "Assault & Battery Defense Attorney in San Diego",
     heroSubhead:
       "Self-defense is not a crime. We tell your side of the story and challenge the state's version of what happened.",
     intro:
-      "Assault and battery charges in San Diego often arise from chaotic, fast-moving situations — a bar altercation, a heated argument, or a moment where you had every right to defend yourself. Yet police frequently arrest first and sort out the details later, leaving you to answer for something you may not have started. At Tegnelia & DeBose, APC, we dig into what actually happened: who was the aggressor, whether you acted in lawful self-defense or defense of another, and whether the injuries and threats were exaggerated. We locate witnesses, secure surveillance footage, and expose inconsistencies in the accuser's account. Whether you're facing a simple battery or a serious aggravated-assault charge carrying strike consequences, we fight to protect your freedom and your record.",
+      "Assault and battery charges in San Diego often arise from chaotic, fast-moving situations — a bar altercation, a heated argument, or a moment where you had every right to defend yourself. Yet police frequently arrest first and sort out the details later, leaving you to answer for something you may not have started. At EmailMyLawyer.com, we dig into what actually happened: who was the aggressor, whether you acted in lawful self-defense or defense of another, and whether the injuries and threats were exaggerated. We locate witnesses, secure surveillance footage, and expose inconsistencies in the accuser's account. Whether you're facing a simple battery or a serious aggravated-assault charge carrying strike consequences, we fight to protect your freedom and your record.",
     handles: [
       "Simple assault (PC 240) and battery (PC 242)",
       "Assault with a deadly weapon (PC 245(a)(1))",
@@ -435,12 +435,12 @@ export const practiceAreas: PracticeArea[] = [
     icon: "Crosshair",
     seoTitle: "Weapons Charges Attorney San Diego | Gun Crime Defense Lawyer",
     metaDescription:
-      "Facing a gun or weapons charge in San Diego? Tegnelia & DeBose, APC defends illegal possession, concealed-carry, and firearm enhancements. Free consultation.",
+      "Facing a gun or weapons charge in San Diego? EmailMyLawyer.com defends illegal possession, concealed-carry, and firearm enhancements. Free consultation.",
     h1: "Weapon Charges Defense Attorney in San Diego",
     heroSubhead:
       "California's gun laws are among the strictest in the nation. One misstep can become a felony. We protect your rights and your freedom.",
     intro:
-      "California has some of the most complex and unforgiving firearm laws in the country, and a weapons charge in San Diego can escalate from a paperwork problem into a felony with life-altering consequences. Many of our clients are lawful gun owners who ran afoul of a technical rule — an out-of-state permit that isn't honored here, a magazine that exceeds California's limit, or a firearm transported the wrong way. Others face serious allegations tied to another offense. At Tegnelia & DeBose, APC, we examine whether the search that produced the weapon was legal, whether you actually possessed or controlled it, and whether a valid exception applies. We fight illegal-search issues, constructive-possession theories, and sentence-enhancing allegations to protect your freedom and, where possible, your right to own firearms.",
+      "California has some of the most complex and unforgiving firearm laws in the country, and a weapons charge in San Diego can escalate from a paperwork problem into a felony with life-altering consequences. Many of our clients are lawful gun owners who ran afoul of a technical rule — an out-of-state permit that isn't honored here, a magazine that exceeds California's limit, or a firearm transported the wrong way. Others face serious allegations tied to another offense. At EmailMyLawyer.com, we examine whether the search that produced the weapon was legal, whether you actually possessed or controlled it, and whether a valid exception applies. We fight illegal-search issues, constructive-possession theories, and sentence-enhancing allegations to protect your freedom and, where possible, your right to own firearms.",
     handles: [
       "Carrying a concealed weapon (PC 25400)",
       "Carrying a loaded firearm in public (PC 25850)",
@@ -517,12 +517,12 @@ export const practiceAreas: PracticeArea[] = [
     icon: "Briefcase",
     seoTitle: "White Collar Crimes Lawyer San Diego | Fraud Defense Attorney",
     metaDescription:
-      "Under investigation for fraud or embezzlement in San Diego? Tegnelia & DeBose, APC defends white collar cases in state and federal court. Free consultation.",
+      "Under investigation for fraud or embezzlement in San Diego? EmailMyLawyer.com defends white collar cases in state and federal court. Free consultation.",
     h1: "White Collar Crimes Defense Attorney in San Diego",
     heroSubhead:
       "A financial-crime investigation can threaten your career, your assets, and your liberty. We defend your rights from the first knock on the door.",
     intro:
-      "White collar allegations — fraud, embezzlement, forgery — often begin quietly, with a subpoena, an audit, or a call from an investigator, long before any charges are filed. That early stage is where your future is won or lost. At Tegnelia & DeBose, APC, we step in immediately to shield you from self-incrimination, communicate with investigators on your behalf, and shape the narrative before the government locks in its theory. These cases turn on documents, intent, and complex financial records, and prosecutors don't always understand the business realities behind them. We work with forensic accountants and investigators to show the difference between a genuine crime and a business dispute, an accounting error, or a misunderstanding. Whether your case is in San Diego Superior Court or federal court, we mount a defense built for the stakes.",
+      "White collar allegations — fraud, embezzlement, forgery — often begin quietly, with a subpoena, an audit, or a call from an investigator, long before any charges are filed. That early stage is where your future is won or lost. At EmailMyLawyer.com, we step in immediately to shield you from self-incrimination, communicate with investigators on your behalf, and shape the narrative before the government locks in its theory. These cases turn on documents, intent, and complex financial records, and prosecutors don't always understand the business realities behind them. We work with forensic accountants and investigators to show the difference between a genuine crime and a business dispute, an accounting error, or a misunderstanding. Whether your case is in San Diego Superior Court or federal court, we mount a defense built for the stakes.",
     handles: [
       "Fraud (insurance, healthcare, mortgage, securities)",
       "Embezzlement (PC 503)",
@@ -599,12 +599,12 @@ export const practiceAreas: PracticeArea[] = [
     icon: "Gavel",
     seoTitle: "Felony Defense Attorney San Diego | Serious & Violent Crimes",
     metaDescription:
-      "Facing a felony, murder, or manslaughter charge in San Diego? Tegnelia & DeBose, APC defends the most serious cases, including strikes. Call 24/7 — free consultation.",
+      "Facing a felony, murder, or manslaughter charge in San Diego? EmailMyLawyer.com defends the most serious cases, including strikes. Call 24/7 — free consultation.",
     h1: "Felony & Violent Crime Defense Attorney in San Diego",
     heroSubhead:
       "When your freedom is on the line, experience matters. We defend the most serious charges — murder, manslaughter, and strike felonies — with everything we have.",
     intro:
-      "When you're facing a felony in San Diego — especially a violent crime like murder or manslaughter — the stakes could not be higher. A conviction can mean years or decades in state prison, a strike on your record, and the loss of the future you've built. These cases demand meticulous preparation, an aggressive investigation, and a lawyer who is genuinely prepared to go to trial. At Tegnelia & DeBose, APC, we treat every serious felony as a case that may be tried to a jury. We scrutinize the arrest, the forensic evidence, and the witnesses; we consult experts in forensics, pathology, and reconstruction; and we build defenses grounded in the presumption of innocence. From bail and preliminary hearings through trial, we stand between you and the full weight of the state. This page also covers the bail reviews, preliminary hearings, and arrest and bench warrant matters that arise inside serious felony cases.",
+      "When you're facing a felony in San Diego — especially a violent crime like murder or manslaughter — the stakes could not be higher. A conviction can mean years or decades in state prison, a strike on your record, and the loss of the future you've built. These cases demand meticulous preparation, an aggressive investigation, and a lawyer who is genuinely prepared to go to trial. At EmailMyLawyer.com, we treat every serious felony as a case that may be tried to a jury. We scrutinize the arrest, the forensic evidence, and the witnesses; we consult experts in forensics, pathology, and reconstruction; and we build defenses grounded in the presumption of innocence. From bail and preliminary hearings through trial, we stand between you and the full weight of the state. This page also covers the bail reviews, preliminary hearings, and arrest and bench warrant matters that arise inside serious felony cases.",
     handles: [
       "Murder and attempted murder (PC 187 / 664)",
       "Voluntary and involuntary manslaughter (PC 192)",
@@ -681,12 +681,12 @@ export const practiceAreas: PracticeArea[] = [
     icon: "FileCheck",
     seoTitle: "Expungement Lawyer San Diego | Record Sealing Attorney",
     metaDescription:
-      "Clear your California record with Tegnelia & DeBose, APC. We handle expungements (PC 1203.4), record sealing, and probation termination in San Diego. Free consult.",
+      "Clear your California record with EmailMyLawyer.com. We handle expungements (PC 1203.4), record sealing, and probation termination in San Diego. Free consult.",
     h1: "Expungement & Record Sealing Attorney in San Diego",
     heroSubhead:
       "Your past shouldn't define your future. We help San Diego clients clear their records and reclaim their opportunities.",
     intro:
-      "An old conviction can quietly hold you back for years — costing you jobs, housing, and professional licenses long after you've paid your debt. California law offers powerful tools to clean up your record, and Tegnelia & DeBose, APC helps San Diego clients use them. Through expungement under Penal Code 1203.4, we can have a qualifying conviction dismissed so you can lawfully tell most employers you were not convicted. We also pursue arrest-record sealing under PC 851.8 and 851.91, reductions of felonies to misdemeanors under PC 17(b), and early termination of probation. For those with a criminal past behind them, this is often the single most important step toward a fresh start. This page also covers probation-violation matters — because resolving a violation is frequently the first step toward clearing your record.",
+      "An old conviction can quietly hold you back for years — costing you jobs, housing, and professional licenses long after you've paid your debt. California law offers powerful tools to clean up your record, and EmailMyLawyer.com helps San Diego clients use them. Through expungement under Penal Code 1203.4, we can have a qualifying conviction dismissed so you can lawfully tell most employers you were not convicted. We also pursue arrest-record sealing under PC 851.8 and 851.91, reductions of felonies to misdemeanors under PC 17(b), and early termination of probation. For those with a criminal past behind them, this is often the single most important step toward a fresh start. This page also covers probation-violation matters — because resolving a violation is frequently the first step toward clearing your record.",
     handles: [
       "Expungement of convictions (PC 1203.4)",
       "Reduction of felonies to misdemeanors (PC 17(b))",

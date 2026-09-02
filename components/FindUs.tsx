@@ -10,7 +10,7 @@ export function FindUs({ eyebrow = "Find Us", title = "Visit Our San Diego Offic
       <div className="mt-10 grid gap-8 lg:grid-cols-2">
         <Reveal className="overflow-hidden rounded-2xl border border-line">
           <iframe
-            title="Map to Tegnelia & DeBose, APC office"
+            title="Map to EmailMyLawyer.com office"
             src={site.mapEmbed}
             className="h-[340px] w-full md:h-full"
             style={{ minHeight: 340, border: 0 }}

@@ -10,9 +10,9 @@ import { reviews } from "@/lib/reviews";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Tegnelia & DeBose Reviews | Client Testimonials",
+  title: "Client Reviews & Testimonials",
   description:
-    "Read reviews and testimonials from clients of Tegnelia & DeBose, APC. See why San Diego trusts our criminal defense team. Free consultation — (619) 876-0992.",
+    "Read reviews and testimonials from clients of EmailMyLawyer.com. See why San Diego trusts our criminal defense team. Free consultation — (619) 876-0992.",
   alternates: { canonical: "/testimonials" },
 };
 

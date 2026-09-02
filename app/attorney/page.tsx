@@ -13,7 +13,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Marcus DeBose — San Diego Criminal Defense Lawyer",
   description:
-    "Meet Marcus DeBose, criminal defense attorney at Tegnelia & DeBose, APC in San Diego. Aggressive, experienced representation for DUI, felony & serious charges.",
+    "Meet Marcus DeBose, criminal defense attorney at EmailMyLawyer.com in San Diego. Aggressive, experienced representation for DUI, felony & serious charges.",
   alternates: { canonical: "/attorney" },
 };
 
@@ -81,7 +81,7 @@ export default function AttorneyPage() {
               <p>
                 Marcus DeBose founded his San Diego criminal defense practice on a conviction
                 that never wavers: the accused deserve a fierce, fully prepared advocate standing
-                between them and the power of the state. He built Tegnelia & DeBose, APC to be that
+                between them and the power of the state. He built EmailMyLawyer.com to be that
                 advocate for people across San Diego County facing the most frightening moment of
                 their lives.
               </p>

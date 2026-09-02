@@ -10,7 +10,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Free Consultation | San Diego Criminal Lawyer Contact",
   description:
-    "Contact Tegnelia & DeBose, APC for a free, confidential case review. Call (619) 876-0992 24/7 or request a review online. San Diego criminal defense attorneys.",
+    "Contact EmailMyLawyer.com for a free, confidential case review. Call (619) 876-0992 24/7 or request a review online. San Diego criminal defense attorneys.",
   alternates: { canonical: "/contact" },
 };
 
@@ -25,7 +25,7 @@ export default function ContactPage() {
 
       <PageHero
         eyebrow="Free Case Review"
-        title="Contact Tegnelia & DeBose, APC"
+        title="Contact EmailMyLawyer.com"
         subhead="Facing charges is frightening — but you don't have to face them alone. Reach out for a free, confidential consultation. We answer 24/7."
         size="sm"
       />
@@ -74,7 +74,7 @@ export default function ContactPage() {
 
               <div className="overflow-hidden rounded-2xl border border-line">
                 <iframe
-                  title="Map to Tegnelia & DeBose, APC"
+                  title="Map to EmailMyLawyer.com"
                   src={site.mapEmbed}
                   className="h-64 w-full"
                   style={{ border: 0 }}

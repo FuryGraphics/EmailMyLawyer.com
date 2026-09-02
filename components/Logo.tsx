@@ -20,7 +20,7 @@ export function Logo({
     >
       <Image
         src="/images/logo-lion.png"
-        alt="Tegnelia & DeBose, APC lion emblem"
+        alt="EmailMyLawyer.com lion emblem"
         width={1029}
         height={900}
         priority

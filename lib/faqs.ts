@@ -4,7 +4,7 @@ import type { FAQ } from "./practice-areas";
 export const generalFaqs: FAQ[] = [
   {
     q: "What should I do immediately after being arrested in San Diego?",
-    a: "Stay calm, invoke your right to remain silent, and clearly ask for an attorney. Do not explain, justify, or apologize — anything you say can be used against you. Then call Tegnelia & DeBose, APC as soon as possible so we can protect your rights from the earliest stage.",
+    a: "Stay calm, invoke your right to remain silent, and clearly ask for an attorney. Do not explain, justify, or apologize — anything you say can be used against you. Then call EmailMyLawyer.com as soon as possible so we can protect your rights from the earliest stage.",
   },
   {
     q: "How much does a criminal defense attorney cost?",

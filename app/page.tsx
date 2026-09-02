@@ -17,7 +17,7 @@ import { LegalServiceSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
   // Root-segment page: the layout's title.template doesn't apply here, so include the brand.
-  title: "Criminal Defense Attorney San Diego CA | Tegnelia & DeBose, APC",
+  title: "Criminal Defense Attorney San Diego CA | EmailMyLawyer.com",
   description:
     "Aggressive San Diego criminal defense attorneys handling DUI, domestic violence, drug, theft & felony charges. Free consultation, 24/7 response. Call (619) 876-0992.",
   alternates: { canonical: "/" },
@@ -66,7 +66,7 @@ export default function HomePage() {
 
         <div className="container-x">
           <div className="max-w-3xl">
-            <p className="reveal-css eyebrow mb-5">Tegnelia &amp; DeBose, APC · EmailMyLawyer.com</p>
+            <p className="reveal-css eyebrow mb-5">EmailMyLawyer.com · San Diego Criminal Defense</p>
             <h1
               className="reveal-css text-4xl font-semibold leading-[1.06] text-cream gold-underline md:text-6xl lg:text-[4.25rem]"
               style={{ animationDelay: "0.08s" }}
@@ -102,7 +102,7 @@ export default function HomePage() {
         eyebrow="Our Story"
         title="Experience That Levels the Playing Field"
         paragraphs={[
-          "Tegnelia & DeBose, APC was built on a simple belief: everyone deserves a fierce, prepared advocate standing between them and the power of the state. Led by attorney Marcus DeBose, our firm brings courtroom experience and an insider's understanding of how San Diego prosecutors build — and lose — their cases.",
+          "EmailMyLawyer.com was built on a simple belief: everyone deserves a fierce, prepared advocate standing between them and the power of the state. Led by attorney Marcus DeBose, our firm brings courtroom experience and an insider's understanding of how San Diego prosecutors build — and lose — their cases.",
           "We treat every client with respect and every case as if it's headed to trial. That preparation is what gives us leverage to win dismissals, reductions, and acquittals for the people who trust us with their future.",
         ]}
         stats={[

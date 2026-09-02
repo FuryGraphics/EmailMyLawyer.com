@@ -30,7 +30,7 @@ export function Footer() {
       <div className="container-x grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4">
         {/* Brand */}
         <div className="lg:pr-6">
-          <Logo />
+          <Logo wordmarkOnly />
           <p className="mt-5 text-sm leading-relaxed text-cream-dim">
             Aggressive, experienced criminal defense for San Diego and the surrounding
             counties. When your freedom is on the line, you deserve a lawyer who fights.
@@ -128,8 +128,8 @@ export function Footer() {
       <div className="border-t border-line">
         <div className="container-x flex flex-col items-center justify-between gap-4 py-6 text-xs text-cream-dim md:flex-row">
           <p>
-            © {new Date().getFullYear()} {site.legalName}. All rights reserved. Attorney
-            Advertising.
+            © {new Date().getFullYear()} {site.brand}, a service of {site.legalName}. All rights
+            reserved. Attorney Advertising.
           </p>
           <div className="flex items-center gap-5">
             <Link href="/privacy-policy" className="hover:text-cream transition-colors">

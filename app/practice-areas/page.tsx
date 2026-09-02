@@ -10,7 +10,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "San Diego Criminal Defense Law Firm | Practice Areas",
   description:
-    "Explore the criminal defense practice areas of Tegnelia & DeBose, APC — DUI, domestic violence, drug, theft, assault, weapons, white collar & felony defense in San Diego.",
+    "Explore the criminal defense practice areas of EmailMyLawyer.com — DUI, domestic violence, drug, theft, assault, weapons, white collar & felony defense in San Diego.",
   alternates: { canonical: "/practice-areas" },
 };
 
@@ -25,7 +25,7 @@ export default function PracticeAreasHub() {
       <PageHero
         eyebrow="Practice Areas"
         title="San Diego Criminal Defense — Full Service"
-        subhead="Whatever you're facing, we've defended it. From a first-time misdemeanor to the most serious felony, Tegnelia & DeBose, APC brings the same relentless preparation to every case."
+        subhead="Whatever you're facing, we've defended it. From a first-time misdemeanor to the most serious felony, EmailMyLawyer.com brings the same relentless preparation to every case."
         size="sm"
       >
         <HeroCTAs />
