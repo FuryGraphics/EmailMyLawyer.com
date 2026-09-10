@@ -113,15 +113,15 @@ export default function AttorneyPage() {
       <section className="container-x pb-8 md:pb-12">
         <Reveal>
           <div className="rounded-2xl border border-line bg-white/[0.02] p-6 md:p-8">
-            <p className="eyebrow mb-6 text-center">Featured in the National Media</p>
+            <p className="eyebrow mb-6 text-center">As Seen On the News</p>
             <div className="grid gap-6 sm:grid-cols-2">
               <figure className="overflow-hidden rounded-xl border border-line">
                 <Image
                   src="/images/media-dateline.jpg"
-                  alt="Attorney Marcus DeBose interviewed on Dateline NBC"
-                  width={800}
-                  height={430}
-                  className="h-52 w-full object-cover"
+                  alt="Attorney Marcus E. DeBose interviewed on Dateline NBC"
+                  width={1200}
+                  height={675}
+                  className="aspect-video w-full object-cover"
                 />
                 <figcaption className="px-4 py-3 text-sm text-cream-dim">
                   Featured as a legal analyst on <span className="text-cream">Dateline NBC</span>
@@ -130,13 +130,13 @@ export default function AttorneyPage() {
               <figure className="overflow-hidden rounded-xl border border-line">
                 <Image
                   src="/images/media-nbc.jpg"
-                  alt="Attorney Marcus DeBose featured on NBC covering a criminal case"
-                  width={800}
-                  height={600}
-                  className="h-52 w-full object-cover"
+                  alt="Attorney Marcus E. DeBose interviewed as a defense attorney on NBC 7 San Diego"
+                  width={1200}
+                  height={675}
+                  className="aspect-video w-full object-cover"
                 />
                 <figcaption className="px-4 py-3 text-sm text-cream-dim">
-                  Sought-after commentary on <span className="text-cream">NBC News</span>
+                  Legal commentary on <span className="text-cream">NBC 7 San Diego</span>
                 </figcaption>
               </figure>
             </div>
