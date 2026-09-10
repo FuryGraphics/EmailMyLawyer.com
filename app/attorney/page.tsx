@@ -120,8 +120,8 @@ export default function AttorneyPage() {
                   src="/images/media-dateline.jpg"
                   alt="Attorney Marcus E. DeBose interviewed on Dateline NBC"
                   width={1200}
-                  height={675}
-                  className="aspect-video w-full object-cover"
+                  height={644}
+                  className="h-auto w-full"
                 />
                 <figcaption className="px-4 py-3 text-sm text-cream-dim">
                   Featured as a legal analyst on <span className="text-cream">Dateline NBC</span>
@@ -132,8 +132,8 @@ export default function AttorneyPage() {
                   src="/images/media-nbc.jpg"
                   alt="Attorney Marcus E. DeBose interviewed as a defense attorney on NBC 7 San Diego"
                   width={1200}
-                  height={675}
-                  className="aspect-video w-full object-cover"
+                  height={667}
+                  className="h-auto w-full"
                 />
                 <figcaption className="px-4 py-3 text-sm text-cream-dim">
                   Legal commentary on <span className="text-cream">NBC 7 San Diego</span>
